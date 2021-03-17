@@ -8,6 +8,7 @@
 </head>
 <body>
     <nav class="navbar">
+        <div class="container navbar__container">
         <h1 class="logo-studion">
             Studi<span class="copy-primary">on</span><span class="logo-studion__subtitle">Eventos</span>
         </h1>
@@ -18,12 +19,13 @@
             <li><a href="#depoimentos">Depoimentos</a></li>
             <li><a href="#contatos">Contatos</a></li>
         </ul>
+        </div>
     </nav>
 
     <header>
         <div id="slider">
             <div class="slide">
-                <img class="slide__backgroud-image" src="./images/banner.jpg" alt="Studion Banner">
+                <img class="slide__background-image" src="./images/banner.jpg" alt="Studion Banner">
                 <div class="slide__copy">
                   <h6><span class="copy-primary">Próximo evento</span> - Dia 25 de Setembro às 19h</h6>
                   <h2><span class="copy-primary">Creative</span> Minds</h2>
@@ -37,27 +39,33 @@
 
     <main>
 
-        <section>
-            <Ul>
-                <li><h3>+ de 50</h3>Eventos realizados</li>
-                <li><h3>+ de 1.000,00</h3>de ingressos vendidos</li>
-                <li><h3>+ de 300</h3>Empresas atendidas</li>
+        <section id="counter">
+            <Ul class="counter__container">
+                <li><h3>+ de 50 <small>Eventos realizados</small></h3></li>
+                <li><h3>+ de 1.000,00 <small>de ingressos vendidos</small></h3></li>
+                <li><h3>+ de 300 <small> empresas atendidas </small></h3></li>
             </Ul>
         </section>
 
-        <section>
-            <img src= "./images/institutional.jpg"/>
-            <h6>fazemos seu evento acontecer</h6>
+        <section class="container institutional">
+            <img class="institutional__image" src= "./images/institutional.jpg" alt="Studion institutional"/>
+            <div class="institutional__copy">
+            <h6>Fazemos seu evento acontecer</h6>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-            <button>Saiba Mais</button>
+            <button class="btn btn--institutional">Saiba Mais</button>
+           </div>
         </section>
 
-        <section>
-            <h6>VOCÊ INFORMA A TEMÁTICA E NÓS PLANEJAMOS 
-                UM EVENTO COM TECNOLOGIA E</h6>
-            <h2><span>Muito+</span>Diversão</h2>
-            <button>Fazer cotação</button>
+        <section class="quote">
+            <div class="container quote__container">
+                <div class="quote__copy">
+                    <h6><span>Você informa a temática e nós planejamos</span>
+                        um evento com tecnologia</h6>
+                    <h2><span class="copy-primary">Muito+</span>Diversão</h2>
+                    <button class="btn btn--quote">Fazer cotação</button>
+                </div>
+            </div>
         </section>
 
     </main>
