@@ -1,0 +1,142 @@
+.eventos__info {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    align-items: center;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    padding: 4rem 0 2rem 0;
+    
+}
+
+
+.foto__brazura  img{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    
+}
+
+.eventos__text {
+    margin: 0;
+}
+.eventostres__text h3,
+.eventos__text h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.eventos__text p {
+    display: grid;
+    margin: 0;
+    grid-template-columns: 2fr 1fr;
+}
+
+.eventostres__text button,
+.eventos__text button {
+    background-color: var(--color-primary);
+    color: #fff;
+    border: unset;
+    justify-self: end;
+}
+.eventostres__text button:hover,
+.eventos__text button:hover,
+.local__eventostres button:hover {
+    color: var(--color-primary);
+    background-color: var(--color-copy);
+    
+}
+.eventostres__info {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    align-items: center;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    padding: 2rem 0 em 0;
+    
+}
+
+.eventosdois__info {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    align-items: center;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    padding: 2rem 0 2rem 0;
+    
+}
+
+.foto__brazura__tres {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.foto__brazura__tres img {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+
+}
+
+.eventostres__text p{
+    display: grid;
+    margin: 0;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.text__tres__eventostres p {
+    margin-top: 6rem;
+
+}
+
+.local__eventostres{
+    display: grid;
+    grid-template-columns: auto 2fr 2fr;
+    margin-top: 2.7rem;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.local__eventostres i {
+    font-size: 25px;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+
+}
+
+.local__eventostres p {
+    font-family: 'Roboto'sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin-left: 1rem;
+    grid-template-columns: unset;
+    
+    
+
+}
+
+.local__eventostres p span {
+    display: block;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    letter-spacing: 0.1875rem;
+    margin-bottom: -0.1rem;
+    text-transform: uppercase;
+}
+
+.local__eventostres button {
+    background-color: unset;
+    color: var(--color-primary);
+}
+
+.eventosquatro__info {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    align-items: center;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    padding: 2rem 0 4rem 0;
+
+}
+
+
+
+
+
